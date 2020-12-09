@@ -16,10 +16,11 @@
     ],
     "require": {
         "php": "^7.3",
+        "sylius/mailer-bundle": "^1.6",
+        "sylius/paypal-plugin": "^1.0.3",
         "sylius/sylius": "~1.8.1",
         "symfony/dotenv": "^4.4",
-        "symfony/flex": "^1.9",
-        "sylius/paypal-plugin": "^1.0.3"
+        "symfony/flex": "^1.9"
     },
     "require-dev": {
         "behat/behat": "^3.7",
