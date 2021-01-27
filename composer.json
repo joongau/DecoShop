@@ -68,17 +68,7 @@
         "auto-scripts": {
             "cache:clear": "symfony-cmd",
             "assets:install %PUBLIC_DIR%": "symfony-cmd"
-        },
-        "post-install-cmd": [
-            "@auto-scripts"
-        ],
-        "post-update-cmd": [
-            "@auto-scripts"
-        ],
-        "post-create-project-cmd": [
-            "@php bin/console sylius:inform-about-gus --ansi",
-            "@php bin/console sylius:show-available-plugins --ansi"
-        ]
+        }
     },
     "config": {
         "preferred-install": {
